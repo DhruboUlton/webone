@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,55 @@
     <title>contact Info</title>
     <link rel="stylesheet" href="styles\styles.css">
 </head>
+
 <body>
-    <table>
-        <tr> <td><img src="Data\Dhrubo.png" alt="Profile Picture of Dhrubo" height="230px"></td>
-            <td><h4>Hey there, thank you for choosing me for your work. <br> 
-        Feel free to join me thorough following contacts. <br> 
-        Thank You</h4></td>
+    <table class="a">
+        <tr>
+            <td><img src="Data\Dhrubo.png" alt="Profile Picture of Dhrubo" height="230px"></td>
+            <td>
+                <h4>Hey there, thank you for choosing me for your work. <br>
+                    Feel free to join me thorough following contacts. <br>
+                    Thank You</h4>
+            </td>
         </tr>
     </table>
     <hr>
-    <a href="https://www.facebook.com/beyond.dhrubo/">facebook</a><br>
-    <a href="https://www.instagram.com/beyond.dhrubo/">instagram</a><br>
-    Email: dhrubo@inbox.ru
-    
+    <p><a href="https://www.facebook.com/beyond.dhrubo/">facebook</a></p>
+    <p><a href="https://www.instagram.com/beyond.dhrubo/">instagram</a></p>
+    <p> Email: dhrubo@inbox.ru</p>
+    <hr>
+    <p><strong>Feel free to drop your concerns here:</strong></p>
+    <form action="mailto:dhrubo.inbox.ru" method="post" enctype="text/plain">
+        <ul>
+            <li><label>Your Name:</label>
+                <input type="text" name="Name"> <br></li>
+            <li><label for="email" >Your Email</label>
+            <input type="email" name="Email"> <br></li>
+            <li>
+                <p>Your concerns about:</p>
+                <table class="b">
+                    <tr>
+                        <td><label>CSS</label>
+                            <input type="checkbox"></td>
+                        <td><label>HTML</label>
+                            <input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Photography</label>
+                            <input type="checkbox"></td>
+                        <td><label>Management</label>
+                            <input type="checkbox"></td>
+                    </tr>
+                </table>
+            </li>
+            <li><label for="description">Your concerns:</label> <br>
+                <textarea name="descripttion" id="" cols="30" rows="10"></textarea><br></li>
+            <li><label for="file">Attachment you want to tag:</label>
+                <input type="file"><br></li>
+            <input type="submit">
+        </ul>
+    </form>
+
 </body>
+
 </html>
