@@ -45,6 +45,7 @@
             padding: 2%;
             max-height: 80vh;
             max-width: 20%;
+            width: 20%;
         }
         
         .mypic {
@@ -108,6 +109,8 @@
         
         .social {
             margin-left: 5%;
+            text-decoration: none;
+            color: black;
             background: none;
             background-image: linear-gradient(90deg, #630000, rgb(0, 0, 0));
             background-size: 0% 4px;
